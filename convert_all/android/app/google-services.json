@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34235721035",
+    "firebase_url": "https://convetall.firebaseio.com",
+    "project_id": "convetall",
+    "storage_bucket": "convetall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34235721035:android:f8a189b24402ca2055b4ce",
+        "android_client_info": {
+          "package_name": "com.example.convert_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34235721035-0us5vi6koqg66pd1de72c95e4jebiuok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.convert_all",
+            "certificate_hash": "bfe272d07012cafb3bd49c0fc8cb84b2323c2efd"
+          }
+        },
+        {
+          "client_id": "34235721035-in3s48re48bp7djsm3rusn5j48aeujgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7FwE_kujpDVIFkl9cT6qwMziK137LnkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34235721035-in3s48re48bp7djsm3rusn5j48aeujgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>531827480560-jflud3v2cu26lmds2lr8538ooeguf31l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.531827480560-jflud3v2cu26lmds2lr8538ooeguf31l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBzqMAwKehFgeEXPtnvF1WhyB7G4tibbbU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>531827480560</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.gerenciadorMobile</string>
+	<key>PROJECT_ID</key>
+	<string>gerenciador-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gerenciador-mobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:531827480560:ios:7b64070ab9226a98bb2f35</string>
+	<key>DATABASE_URL</key>
+	<string>https://gerenciador-mobile.firebaseio.com</string>
+</dict>
+</plist>
