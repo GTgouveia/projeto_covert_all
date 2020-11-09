@@ -16,60 +16,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
     escolhaConversao = 0;
-    FirebaseAdMob.instance
-        .initialize(appId: "ca-app-pub-1174007106051405~3311141235");
-
-    startBanner();
-    displayBanner();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-  }
-
-  MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-    keywords: <String>['Moedas', 'Temperaturas', 'Conversao'],
-    contentUrl: 'https://flutter.io',
-    childDirected: false,
-    testDevices: <String>[],
-  );
-
-  BannerAd myBanner;
-  InterstitialAd myInterstitial;
-
-  void startBanner() {
-    myBanner = BannerAd(
-      adUnitId: BannerAd.testAdUnitId,
-      size: AdSize.smartBanner,
-      targetingInfo: targetingInfo,
-      listener: (MobileAdEvent event) {
-        if (event == MobileAdEvent.opened) {
-          // MobileAdEvent.opened
-          // MobileAdEvent.clicked
-          // MobileAdEvent.closed
-          // MobileAdEvent.failedToLoad
-          // MobileAdEvent.impression
-          // MobileAdEvent.leftApplication
-        }
-        print("BannerAd event is $event");
-      },
-    );
-  }
-
-  void displayBanner() {
-    myBanner
-      ..load()
-      ..show(
-        anchorOffset: 0.0,
-        anchorType: AnchorType.bottom,
-      );
-  }
-
-  @override
-  void dispose() {
-    myBanner?.dispose();
-    myInterstitial?.dispose();
-    super.dispose();
+  
   }
 
   @override
